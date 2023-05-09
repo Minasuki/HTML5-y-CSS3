@@ -1,49 +1,90 @@
-.titulo-principal{
-    padding-left: 30px;
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
 }
 
-#banner{
-    width:100%;
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
 
-.principal{
-    background: #CCCCCC;
-    padding: 20px;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-.titulo-centralizado{
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+footer {
     text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
 }
 
-p{
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.banner{
+    width: 100%;
+}
+
+.titulo__principal{
     text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
 }
 
-em strong{
-    color:red;
+.principal p{
+    margin: 0 0 1em;
 }
 
-#mision{
-    font-size: 20px;
+.principal strong{
+font-weight: bold;
 }
 
-.diferenciales{
-    background: #FFFFFF;
-    padding: 30px;
-}
-
-.items{
+.principal em{
     font-style: italic;
 }
 
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+.utensilios{
+    width: 120px;
+    float: left;
+    margin:  0 20px 0  10px;
 }
 
-.imagenDiferenciales{
-    width: 50%;
+.imagen__diferenciales{
+    width: 60%;
 }
-
